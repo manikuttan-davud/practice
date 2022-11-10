@@ -79,8 +79,8 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                     prefixIconColor: Colors.orange,
                     prefixIcon: IconTheme(data: IconThemeData(
-            color: Colors.orange
-          ), child: Icon(Icons.person,))
+            color: Colors.black
+          ), child: Icon(Icons.filter,))
         ),
         onChanged: ((value) {
           setState(() {
